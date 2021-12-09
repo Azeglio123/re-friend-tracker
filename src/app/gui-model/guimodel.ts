@@ -334,18 +334,13 @@ export class GuiModel {
                                 "form": "AddActivityForm"
                             }
                         },
-                        {
-                            "type": "newButton",
-                            "name": "Search",
-                            "icon": "fa-search",
-                            "color": "green",
-                            "search": true,
-                        },
+                        
 
                         { 
                             "type": "list", 
                             "icon": "fa-weixin", 
                             "color": "wisteria", 
+                            "search": true,
                             "url": "/friend/:friendKey/activity", 
                             
                             
